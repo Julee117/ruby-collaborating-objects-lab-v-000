@@ -21,7 +21,7 @@ class Artist
 
   def self.create_by_name(name)
     artist = self.new(name)
-    artist.name = name
+    # artist.name = name
     artist.save
     artist
     #OR self.new(name).tap {|artist| artist.save}
